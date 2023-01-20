@@ -1,0 +1,35 @@
+{
+  "manifest": {
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "...SCRUBBED..."
+        },
+        "regions": {
+          "EU": {
+            "endpoint": {
+              "uri": "...SCRUBBED..."
+            }
+          },
+          "NA": {
+            "endpoint": {
+              "uri": "...SCRUBBED..."
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "...SCRUBBED..."
+            }
+          }
+        }
+      }
+    },
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "name": "home-field"
+        }
+      }
+    }
+  }
+}

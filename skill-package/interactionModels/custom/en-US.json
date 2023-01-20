@@ -1,0 +1,109 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "home field",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "HelloWorldIntent",
+          "slots": [],
+          "samples": [
+            "hello",
+            "how are you",
+            "say hi world",
+            "say hi",
+            "hi",
+            "say hello world",
+            "say hello",
+            "howdy",
+            "aloha",
+            "hello world",
+            "hello there",
+            "hey"
+          ]
+        },
+        {
+            "name": "FavoriteColorIntent",
+            "slots": [
+                {
+                    "name": "color",
+                    "type": "AMAZON.Color"
+                }
+            ],
+            "samples": [
+                "my favorite color is {color}",
+                "{color} is my favorite color",
+                "i like {color}"
+            ]
+        },
+        {
+            "name": "TeamStadiumIntent",
+            "slots": [
+                {
+                    "name": "team",
+                    "type": "FootballTeam"
+                }
+            ],
+            "samples": [
+                "what stadium does {team} play in",
+                "where does {team} play",
+                "what is the home field for {team}"
+            ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        }
+      ],
+      "types": [
+        {
+          "name": "FootballTeam",
+          "values": [
+            {
+              "id": "cowboys",
+              "name": {
+                "value": "cowboys",
+                "synonyms": [
+                  "dallas",
+                  "dallas cowboys"
+                ]
+              }
+            },
+            {
+              "id": "49ers",
+              "name": {
+                "value": "49ers",
+                "synonyms": [
+                  "san francisco",
+                  "san francisco 49ers"
+                ]
+              }
+            },
+            {
+              "id": "vikings",
+              "name": {
+                "value": "vikings",
+                "synonyms": [
+                  "minnesota",
+                  "minnesota vikings"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "version": "1"
+}
